@@ -135,8 +135,12 @@ footer{
     flex-direction: column;
 }
 
-.footer_logo{
-    margin: 30px;
+.f_logo{
+    /* margin: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .footer_p{
@@ -144,6 +148,7 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 footer p{
