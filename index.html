@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Login Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box loginbox">
+        <form action="" id="login" class="details dtsignin" onsubmit="resetLogForm()">
+          <h2>Login</h2>
+          
+            <div class="box-wrapper">
+              <input type="text" placeholder="Username" required/>
+              <label for="">Username</label>
+            </div>
+            <div class="box-wrapper">
+              <input type="password" placeholder="Password" required/>
+              <label for="">Password</label>
+            </div>
+            <button type="submit" id="btnlogin">Login</button>
+          
+          <p>Don't have account ? <a href="#signupbox" id="lnk_reg">Register</a></p>
+        </form>
+
+        <div class="signupbox">
+          <form id="register" class="details dtsignup" onsubmit="resetRegForm()">
+            <h2>Register</h2>
+            <div class="box-wrapper">
+              <input type="text" placeholder="Username" name="Username" required/>
+              <label for="">Username</label>
+            </div>
+            <div class="box-wrapper">
+              <input type="password" placeholder="Password" name="password" required/>
+              <label for="">Password</label>
+            </div>
+            <div class="box-wrapper">
+              <input type="email" placeholder="Email" required/>
+              <label for="">Email</label>
+            </div>
+            <button type="submit" id="btnreg">Register</button>
+            <p>Already have account ? <a href="#loginbox" id="lnk_log">Login</a></p>
+          </form>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="footer_p">
+          <p>Crafted with <span>❤</span></p>
+          <p>Copyright © Sheelu Singh 2023. All Rights Reserved.</p>
+        </div>
+        <div>
+          <a class="footer_logo" href="https://www.linkedin.com/in/se-sheelu/" target="_blank"><img src="/logo/linkedin.png" alt=""></a>
+          <a class="footer_logo" href="https://github.com/se-sheelu" target="_blank"><img src="/logo/github.png" alt=""></a>
+          <a class="footer_logo" href="https://www.instagram.com/sheelu__singh_/" target="_blank"><img src="/logo/instagram.png" alt=""></a>
+        </div>
+      </footer>
+    </div>
+
+    
+    
+    <script src="index.js"></script>
+    <!-- <script>
+      
+    </script> -->
+  </body>
+</html>
